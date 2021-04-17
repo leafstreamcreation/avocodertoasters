@@ -6,7 +6,9 @@ h1 {
     background-color: greenyellow;
 }
 
-.footer {
+h2 {background-color: red;}
+
+/* .footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -14,7 +16,7 @@ h1 {
     background-color: red;
     color: white;
     text-align: center;
-  }
+  } */
 
   .header-img {
     width: 100%;
@@ -22,3 +24,16 @@ h1 {
     background: url('https://homesteadandchill.com/wp-content/uploads/2020/05/how-to-grow-avocado-trees-ripe-fruit-1.jpeg');
     background-size: cover;
   }
+
+  .stuffed-avocados-img{
+      width: 100vh;
+      height: 50vh;
+      background: url('https://i2.wp.com/simple-veganista.com/wp-content/uploads/2018/05/best-stuffed-avocados.jpg');
+  }
+
+.southwestern-salad-img{
+    width: 100vh;
+    height: 50vh;
+    background: url('https://simple-veganista.com/wp-content/uploads/2015/09/best-southwestern-salad-4-180x180.webp');
+    
+}
