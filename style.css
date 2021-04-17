@@ -1,17 +1,26 @@
-/* 
-        <div class="recipe-container reverse">
-        <div><img class="recipe-image" src="" alt="there should be something here"></div>
-        <article class="recipe">
-            <h3>title</h3>
-            <p>stuff</p>
-        </article>
-    </div> */
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+main {
+    width: 1440px;
+    background-color: #FDF9EE;
+}
     .recipe-container {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+
+    .recipe h3 {
+        font-size: 43px;
+    }
+
+    .recipe p {
+        font-size: 18px;
     }
 
     .recipe-image {
@@ -20,7 +29,25 @@
     }
 
     .circular {
-        border-radius: 100%;
+        border-radius: 250px;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    .quote-container {
+        background-color: #9CB421;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: #FDF9EE;
+        height: 318px;
+    }
+
+    .quote-container h2 {
+        font-size: 35px;
     }
 
 .footer {
