@@ -1,10 +1,27 @@
-body {
+/* 
+        <div class="recipe-container reverse">
+        <div><img class="recipe-image" src="" alt="there should be something here"></div>
+        <article class="recipe">
+            <h3>title</h3>
+            <p>stuff</p>
+        </article>
+    </div> */
 
-}
+    .recipe-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 
-h1 {
-    background-color: greenyellow;
-}
+    .recipe-image {
+        width: 500px;
+        height: 500px;
+    }
+
+    .circular {
+        border-radius: 100%;
+    }
 
 h2 {background-color: red;}
 
