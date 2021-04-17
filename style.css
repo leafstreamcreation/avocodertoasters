@@ -12,6 +12,7 @@ main {
 .title-container {
     background-image: url("https://s3-alpha-sig.figma.com/img/a2fc/6eb4/e1ea93fea3cea08fbc5f716077253377?Expires=1619395200&Signature=BRmrMZAgUIyK0pDq9GraDhLMOpxPCXr1ggHkn2XD7ZFNAaD9HlPRwAo2KrdH11ZbaeeqIFuh8Dg9vlvkERhYsphtxmYOKqao6EwtP-WSBsh9BY1B85OfQwekkz5-u0ujokdfR9wONST7FTYlu6u3QhjOwSWIKOlSpV3f3M8zFaoyLZnj~dU9rDT6cQel8shKprPrMYhCscbamONBAbx20DoTEGa-gTFHI-ODMYQfmtE~fiNc69t-hnLDZCFVhhrrKXxiXiLmW4korQO1oy-Nq1~VWQhoAWJ03lPB3Cem4ePrCjSqiFVPGOo8CqtB1KK-W96FKtgiADvcPZAS~gznGQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
     background-size: contain;
+    background-repeat: no-repeat;
     height: 980px;
     display: flex;
     flex-direction: column;
